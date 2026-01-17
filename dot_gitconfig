@@ -1,0 +1,10 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = dhruvjain592@gmail.com
+	name = P0TA70
+	signingkey = 64CDEE33314906D6
