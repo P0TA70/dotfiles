@@ -6,5 +6,5 @@ if status is-interactive
     fish_add_path /home/linuxbrew/.linuxbrew/opt/rustup/bin
 
     set GPG_TTY $(tty)
-    set EDITOR helix
+    set EDITOR hx
 end
