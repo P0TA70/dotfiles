@@ -1,0 +1,145 @@
+[bar.default]
+background_opacity = 0.81999998167157173
+capsule = true
+capsule_border = "on_primary"
+capsule_padding = 8.0
+center = [ "control-center", "clock", "media", "wallpaper" ]
+color = "primary"
+contact_shadow = false
+end = [ "tray", "nightlight", "notifications", "clipboard", "network", "session" ]
+font_family = "Maple Mono NF"
+font_scale = 1.1499999817460775
+icon_color = "secondary"
+margin_ends = 0
+position = "left"
+radius = 0
+shadow = false
+start = [ "battery", "launcher", "workspaces", "bar" ]
+thickness = 40
+
+    [bar.default.monitor.eDP-2]
+    position = "top"
+
+[control_center]
+sidebar = "full"
+
+[desktop_widgets]
+enabled = false
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[location]
+sunset = "20:30"
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@HDMI-A-1", "lockscreen-login-box@eDP-2" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1023.9999389648438
+    cy = 1006.3999633789062
+    output = "HDMI-A-1"
+    placement_height = 1152.0
+    placement_width = 2048.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 731.5
+    cy = 810.03253173828125
+    output = "eDP-2"
+    placement_height = 914.0
+    placement_width = 1463.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[nightlight]
+enabled = true
+
+[plugins]
+enabled = []
+
+[shell]
+avatar_path = "/home/teapot/Pictures/pink-blahaj-v0-r4sbzkrezni91-1176946993.png"
+font_family = "Maple Mono NF"
+
+    [shell.panel]
+    shadow = true
+
+[theme]
+builtin = "Rosé Pine"
+community_palette = "Catppuccin Mocha Rosewater"
+mode = "dark"
+source = "community"
+wallpaper_scheme = "m3-fruit-salad"
+
+    [theme.templates]
+    builtin_ids = [ "foot", "gtk3", "gtk4", "kcolorscheme", "mango", "qt" ]
+
+[wallpaper.default]
+path = "/home/teapot/Pictures/Wallpapers/temp/Mario-World-dwq6hl-scaled.jpg"
+
+[wallpaper.last]
+path = "/home/teapot/Pictures/Wallpapers/temp/Mario-World-dwq6hl-scaled.jpg"
+
+[wallpaper.monitors.HDMI-A-1]
+path = "/home/teapot/Pictures/Wallpapers/temp/Mario-World-dwq6hl-scaled.jpg"
+
+[wallpaper.monitors.eDP-2]
+path = "/home/teapot/Pictures/Wallpapers/temp/Mario-World-dwq6hl-scaled.jpg"
+
+[widget.bar]
+type = "prponkshe/mango-displays:bar"
+
+[widget.workspaces]
+hide_when_empty = true
+style = "focus_hint"
